@@ -13,10 +13,6 @@ M.defaults = {
 			level_three = "#179fff",
 		},
 	},
-
-	lualine = {
-		theme = "pitchblack",
-	},
 }
 
 M.options = {}
