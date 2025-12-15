@@ -18,6 +18,10 @@ function M.apply_core()
 		["SignColumn"] = { bg = "#000000" },
 		["SignColumnSB"] = { bg = "#000000" },
 		["FoldColumn"] = { bg = "#000000" },
+		["TabLine"] = { fg = "#3b4261", bg = "#1e2030" },
+		["TabLineSel"] = { fg = "#1b1d2b", bg = "#82aaff" },
+		["TabLineFill"] = { bg = "#1b1d2b" },
+
 		-- Explorer related
 		["Directory"] = { fg = "#82aaff" },
 
@@ -26,6 +30,8 @@ function M.apply_core()
 
 		-- Snacks
 		["SnacksPickerFile"] = { fg = "#ffffff" },
+		["SnacksPickerPathHidden"] = { fg = "#545c7e" },
+		["SnacksPickerBoxTitle"] = { fg = "#ff966c", bg = "#1e2030" },
 	}
 
 	for group, opts in pairs(core_hl) do
