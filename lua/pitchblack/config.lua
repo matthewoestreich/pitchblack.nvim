@@ -8,7 +8,7 @@ M.defaults = {
 	lualine = {
 		enabled = true,
 		-- lualine native options can be passed directly through
-		options = {
+		opts = {
 			theme = lualine_theme,
 			component_separators = { left = "", right = "" },
 			section_separators = { left = "", right = "" },
