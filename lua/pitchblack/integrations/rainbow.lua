@@ -3,7 +3,9 @@ local config = require("pitchblack.config")
 local M = {}
 
 function M.apply()
-	if not config.options.rainbow_delimiters.enabled then
+	local rd = config.options.rainbow_delimiters
+
+	if not rd.enabled then
 		return
 	end
 
@@ -13,8 +15,8 @@ function M.apply()
 	end
 
 	-- If override is not empty, use those instead.
-	if next(config.options.rainbow_delimiters.override) then
-		vim.g.rainbow_delimiters = config.options.rainbow_delimiters.override
+	if type(rd.override) == "table" then
+		vim.g.rainbow_delimiters = rd.override
 		return
 	end
 

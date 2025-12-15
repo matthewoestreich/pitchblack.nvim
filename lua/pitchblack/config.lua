@@ -6,7 +6,7 @@ M.defaults = {
 	rainbow_delimiters = {
 		enabled = true,
 		---@type rainbow_delimiters.config
-		override = {},
+		override = nil,
 		colors = {
 			level_one = "#FFD700",
 			level_two = "#DA70D6",
