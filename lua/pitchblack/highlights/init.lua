@@ -14,6 +14,7 @@ function M.apply_core()
 		["FloatBorder"] = { bg = "#000000", fg = "#8aaae5" },
 		["CursorLineNr"] = { fg = "#ff966c", bold = true },
 		["CursorLine"] = { bg = "#2f334d" },
+		["LineNr"] = { fg = "#3b4261" },
 		["LineNrAbove"] = { fg = "#777777", bg = "#000000" },
 		["LineNrBelow"] = { fg = "#777777", bg = "#000000" },
 		["SignColumn"] = { bg = "#000000" },
