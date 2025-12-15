@@ -3,6 +3,7 @@ local config = require("pitchblack.config")
 local M = {}
 
 function M.apply_core()
+	vim.notify("pitchblack:highlights:apply_core()")
 	vim.o.background = config.options.background
 
 	vim.api.nvim_set_hl(0, "Normal", { fg = "#d4d4d4", bg = "#000000" })
@@ -24,6 +25,7 @@ function M.apply_core()
 end
 
 function M.apply_treesitter()
+	vim.notify("pitchblack:highlights:apply_treesitter()")
 	-- Treesitter / Syntax highlights
 	local ts_hl = {
 		["@constructor.typescript"] = { fg = "#4ec9b0" },
