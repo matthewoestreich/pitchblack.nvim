@@ -19,7 +19,7 @@ end
 vim.api.nvim_create_autocmd("ColorScheme", {
 	pattern = "pitchblack",
 	callback = function()
-		vim.schedule(M.setup({}))
+		vim.schedule(M.setup)
 	end,
 })
 
