@@ -7,6 +7,7 @@ function M.setup(opts)
 	vim.notify("pitchblack:config:setup()")
 	config.setup(opts)
 	M.apply()
+	vim.api.nvim_exec_autocmds("ColorScheme", { modeline = false })
 end
 
 function M.apply()
