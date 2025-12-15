@@ -1,4 +1,5 @@
 local config = require("pitchblack.config")
+local lualine = require("pitchblack.integrations.lualine")
 local hl = require("pitchblack.highlights")
 
 local M = {}
@@ -18,6 +19,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 	pattern = "pitchblack",
 	callback = function()
 		vim.schedule(M.setup)
+		lualine.refresh_lualine()
 	end,
 })
 
