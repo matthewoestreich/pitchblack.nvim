@@ -14,4 +14,11 @@ function M.apply()
 	require("pitchblack.integrations.rainbow").apply()
 end
 
+vim.api.nvim_create_autocmd("ColorScheme", {
+	pattern = "pitchblack",
+	callback = function()
+		M.setup()
+	end,
+})
+
 return M
