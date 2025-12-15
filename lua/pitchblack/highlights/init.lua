@@ -21,6 +21,10 @@ function M.apply_core()
 		["TabLine"] = { fg = "#3b4261", bg = "#1e2030" },
 		["TabLineSel"] = { fg = "#1b1d2b", bg = "#82aaff" },
 		["TabLineFill"] = { bg = "#1b1d2b" },
+		["BufferLineFill"] = { fg = "#636da6", bg = "#000000" },
+		["BufferLineBackground"] = { fg = "#636da6", bg = "#000000" },
+		["BufferLineBufferSelected"] = { fg = "#d4d4d4", bg = "#000000", bold = true, italic = true },
+		["BufferLineBufferVisible"] = { fg = "#636da6", bg = "#000000" },
 		["Visual"] = { bg = "#2d3f76" },
 
 		-- Explorer related
