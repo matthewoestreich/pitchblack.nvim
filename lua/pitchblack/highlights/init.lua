@@ -30,6 +30,8 @@ function M.apply_core()
 		["Pmenu"] = { fg = "#c8d3f5", bg = "#1e2030" },
 		["PmenuMatch"] = { fg = "#65bcff", bg = "#1e2030" },
 		["PmenuMatchSel"] = { fg = "#65bcff", bg = "#1e2030" },
+		["Title"] = { fg = "#82aaff", bold = true },
+		["NonText"] = { fg = "#545c7e" },
 
 		-- Explorer related
 		["Directory"] = { fg = "#82aaff" },
