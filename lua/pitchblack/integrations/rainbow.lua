@@ -12,6 +12,12 @@ function M.apply()
 		return
 	end
 
+	-- If override is not empty, use those instead.
+	if next(config.options.rainbow_delimiters.override) then
+		vim.g.rainbow_delimiters = config.options.rainbow_delimiters.override
+		return
+	end
+
 	vim.g.rainbow_delimiters = {
 		highlight = {
 			"RainbowDelimiterYellow",
