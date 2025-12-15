@@ -40,9 +40,9 @@ function M.apply()
 		vim.api.nvim_set_hl(0, grp, { fg = "NONE", bg = "NONE", link = "" })
 	end
 
-	vim.api.nvim_set_hl(0, "RainbowDelimiterYellow", { fg = config.options.rainbow_delimiters.colors.level_one })
-	vim.api.nvim_set_hl(0, "RainbowDelimiterPurple", { fg = config.options.rainbow_delimiters.colors.level_two })
-	vim.api.nvim_set_hl(0, "RainbowDelimiterBlue", { fg = config.options.rainbow_delimiters.colors.level_three })
+	vim.api.nvim_set_hl(0, "RainbowDelimiterYellow", { fg = rd.colors.level_one })
+	vim.api.nvim_set_hl(0, "RainbowDelimiterPurple", { fg = rd.colors.level_two })
+	vim.api.nvim_set_hl(0, "RainbowDelimiterBlue", { fg = rd.colors.level_three })
 end
 
 return M
