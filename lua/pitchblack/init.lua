@@ -5,6 +5,7 @@ local M = {}
 
 function M.setup(opts)
 	vim.notify("pitchblack:config:setup()")
+	vim.g.colors_name = "pitchblack"
 	config.setup(opts)
 	M.apply()
 end
