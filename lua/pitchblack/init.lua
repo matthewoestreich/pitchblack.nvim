@@ -8,13 +8,10 @@ function M.setup(opts)
 	vim.g.colors_name = "pitchblack"
 	config.setup(opts)
 	M.apply()
-end
-
-function M.apply()
-	--vim.notify("pitchblack:config:apply()")
 	hl.apply_core()
 	hl.apply_treesitter()
 	require("pitchblack.integrations.rainbow").apply()
+	vim.api.nvim_exec_autocmds("ColorScheme", { modeline = false })
 end
 
 -- vim.api.nvim_create_autocmd("ColorScheme", {
