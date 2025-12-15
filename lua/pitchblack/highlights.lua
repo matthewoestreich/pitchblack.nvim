@@ -5,6 +5,8 @@ local M = {}
 function M.apply_core()
 	vim.o.background = config.options.background
 
+	vim.api.nvim_set_hl(0, "Normal", { fg = "#d4d4d4", bg = "#000000" })
+	vim.api.nvim_set_hl(0, "NormalNC", { fg = "#d4d4d4", bg = "#000000" })
 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#000000", fg = "#ffffff" })
 	vim.api.nvim_set_hl(0, "FloatBorder", { bg = "#000000", fg = "#888888" })
 
