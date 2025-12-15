@@ -10,7 +10,7 @@ function M.apply_core()
 		["Normal"] = { fg = "#d4d4d4", bg = "#000000" },
 		["NormalNC"] = { fg = "#d4d4d4", bg = "#000000" },
 		["NormalFloat"] = { bg = "#000000", fg = "#ffffff" },
-		["FloatBorder"] = { bg = "#000000", fg = "#888888" },
+		["FloatBorder"] = { bg = "#000000", fg = "#8aaae5" },
 		["CursorLineNr"] = { fg = "#ff966c", bold = true },
 		["CursorLine"] = { bg = "#2f334d" },
 		["LineNrAbove"] = { fg = "#777777", bg = "#000000" },
