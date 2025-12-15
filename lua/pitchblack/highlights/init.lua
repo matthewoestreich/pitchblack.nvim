@@ -7,6 +7,7 @@ function M.apply_core()
 	vim.o.background = config.options.background
 
 	local core_hl = {
+		["Special"] = { fg = "#65bcff" },
 		["Normal"] = { fg = "#d4d4d4", bg = "#000000" },
 		["NormalNC"] = { fg = "#d4d4d4", bg = "#000000" },
 		["NormalFloat"] = { bg = "#000000", fg = "#ffffff" },
@@ -32,6 +33,7 @@ function M.apply_core()
 		["PmenuMatchSel"] = { fg = "#65bcff", bg = "#1e2030" },
 		["Title"] = { fg = "#82aaff", bold = true },
 		["NonText"] = { fg = "#545c7e" },
+		["MatchParen"] = { fg = "#ff966c", bold = true },
 
 		["StatusLine"] = { fg = "#c8d3f5", bg = "#1e2030" },
 		["StatusLineNC"] = { fg = "#c8d3f5", bg = "#1e2030" },
