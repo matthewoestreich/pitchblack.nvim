@@ -6,22 +6,31 @@ function M.apply_core()
 	--vim.notify("pitchblack:highlights:apply_core()")
 	vim.o.background = config.options.background
 
-	vim.api.nvim_set_hl(0, "Normal", { fg = "#d4d4d4", bg = "#000000" })
-	vim.api.nvim_set_hl(0, "NormalNC", { fg = "#d4d4d4", bg = "#000000" })
-	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#000000", fg = "#ffffff" })
-	vim.api.nvim_set_hl(0, "FloatBorder", { bg = "#000000", fg = "#888888" })
+	local core_hl = {
+		["Normal"] = { fg = "#d4d4d4", bg = "#000000" },
+		["NormalNC"] = { fg = "#d4d4d4", bg = "#000000" },
+		["NormalFloat"] = { bg = "#000000", fg = "#ffffff" },
+		["FloatBorder"] = { bg = "#000000", fg = "#888888" },
+		["CursorLineNr"] = { fg = "#ff966c", bold = true },
+		["CursorLine"] = { bg = "#2f334d" },
+		["LineNrAbove"] = { fg = "#777777", bg = "#000000" },
+		["LineNrBelow"] = { fg = "#777777", bg = "#000000" },
+		["SignColumn"] = { bg = "#000000" },
+		["SignColumnSB"] = { bg = "#000000" },
+		["FoldColumn"] = { bg = "#000000" },
+		-- Explorer related
+		["Directory"] = { fg = "#82aaff" },
 
-	-- Line numbers
-	--vim.api.nvim_set_hl(0, "LineNr", { fg = "#555555", bg = "#000000" })
-	vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#777777", bg = "#000000" })
-	vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#777777", bg = "#000000" })
+		-- Diagnostics
+		["DiagnosticWarn"] = { fg = "#ffc777" },
 
-	-- Sign column (git signs, diagnostics, breakpoints)
-	vim.api.nvim_set_hl(0, "SignColumn", { bg = "#000000" })
-	vim.api.nvim_set_hl(0, "SignColumnSB", { bg = "#000000" })
+		-- Snacks
+		["SnacksPickerFile"] = { fg = "#ffffff" },
+	}
 
-	-- Fold column (if shown)
-	vim.api.nvim_set_hl(0, "FoldColumn", { bg = "#000000" })
+	for group, opts in pairs(core_hl) do
+		vim.api.nvim_set_hl(0, group, opts)
+	end
 end
 
 function M.apply_treesitter()
