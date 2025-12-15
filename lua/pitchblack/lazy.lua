@@ -1,4 +1,5 @@
 return {
+	--[[
 	{
 		"nvim-lualine/lualine.nvim",
 		optional = true,
@@ -14,4 +15,5 @@ return {
 			lualine.setup(cfg)
 		end,
 	},
+  --]]
 }
