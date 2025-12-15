@@ -7,6 +7,7 @@ function M.apply_core()
 	vim.o.background = config.options.background
 
 	local core_hl = {
+		["Constant"] = { fg = "#ff966c" },
 		["Special"] = { fg = "#65bcff" },
 		["Normal"] = { fg = "#d4d4d4", bg = "#000000" },
 		["NormalNC"] = { fg = "#d4d4d4", bg = "#000000" },
