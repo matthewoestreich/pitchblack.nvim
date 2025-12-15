@@ -1,2 +1,2 @@
 vim.g.colors_name = "pitchblack"
-require("pitchblack").setup()
+--require("pitchblack").setup()
