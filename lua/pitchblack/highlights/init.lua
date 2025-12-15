@@ -26,12 +26,17 @@ function M.apply_core()
 		["BufferLineBufferSelected"] = { fg = "#d4d4d4", bg = "#000000", bold = true, italic = true },
 		["BufferLineBufferVisible"] = { fg = "#636da6", bg = "#000000" },
 		["Visual"] = { bg = "#2d3f76" },
+		["PmenuSel"] = { bg = "#363c58" },
+		["Pmenu"] = { fg = "#c8d3f5", bg = "#1e2030" },
+		["PmenuMatch"] = { fg = "#65bcff", bg = "#1e2030" },
+		["PmenuMatchSel"] = { fg = "#65bcff", bg = "#1e2030" },
 
 		-- Explorer related
 		["Directory"] = { fg = "#82aaff" },
 
 		-- Diagnostics
 		["DiagnosticWarn"] = { fg = "#ffc777" },
+		["DiagnosticInfo"] = { fg = "#0db9d7" },
 
 		-- Snacks
 		["SnacksPickerFile"] = { fg = "#ffffff" },
