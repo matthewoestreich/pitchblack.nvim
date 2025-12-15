@@ -33,6 +33,23 @@ function M.apply_core()
 		["SnacksPickerFile"] = { fg = "#ffffff" },
 		["SnacksPickerPathHidden"] = { fg = "#545c7e" },
 		["SnacksPickerBoxTitle"] = { fg = "#ff966c", bg = "#1e2030" },
+		["SnacksDashboardKey"] = { fg = "#ff966c" },
+		["SnacksDashboardHeader"] = { fg = "#82aaff" },
+		["SnacksNotifierTitleWarn"] = { fg = "#ffc777" },
+		["SnacksPickerInputBorder"] = { fg = "#ff966c", bg = "#1e2030" },
+		["SnacksPickerInputTitle"] = { fg = "#ff966c", bg = "#1e2030" },
+		["SnacksNotifierIconDebug"] = { fg = "#636da6" },
+		["SnacksDashboardFooter"] = { fg = "#65bcff" },
+		["SnacksInputIcon"] = { fg = "#65bcff" },
+		["SnacksInputBorder"] = { fg = "#ffc777" },
+		["SnacksPickerPickWinCurrent"] = { fg = "#c8d3f5", bg = "#ff007c", bold = true },
+		["SnacksPickerPickWin"] = { fg = "#c8d3f5", bg = "#3e68d7" },
+		["SnacksGhLabel"] = { fg = "#65bcff", bold = true },
+		--["SnacksPickerToggle"] = {}, -- xxx links to SnacksProfilerBadgeInfo
+		["SnacksNotifierTitleDebug"] = { fg = "#636da6" },
+		["SnacksNotifierTitleError"] = { fg = "#c53b53" },
+		["SnacksNotifierIconError"] = { fg = "#c53b53" },
+		["SnacksInputTitle"] = { fg = "#ffc777" },
 	}
 
 	for group, opts in pairs(core_hl) do
