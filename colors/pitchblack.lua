@@ -4,4 +4,4 @@ vim.g.colors_name = "pitchblack"
 vim.o.termguicolors = true
 
 local pb = require("pitchblack")
-pb.setup({})
+pb.setup()
