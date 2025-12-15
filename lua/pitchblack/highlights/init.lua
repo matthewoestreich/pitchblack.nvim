@@ -33,6 +33,9 @@ function M.apply_core()
 		["Title"] = { fg = "#82aaff", bold = true },
 		["NonText"] = { fg = "#545c7e" },
 
+		["StatusLine"] = { fg = "#c8d3f5", bg = "#1e2030" },
+		["StatusLineNC"] = { fg = "#c8d3f5", bg = "#1e2030" },
+
 		-- Explorer related
 		["Directory"] = { fg = "#82aaff" },
 
