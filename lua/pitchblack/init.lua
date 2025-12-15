@@ -12,7 +12,6 @@ function M.apply()
 	hl.apply_core()
 	hl.apply_treesitter()
 	require("pitchblack.integrations.rainbow").apply()
-	require("pitchblack.integrations.lualine").apply()
 end
 
 return M
