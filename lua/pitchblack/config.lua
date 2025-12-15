@@ -1,6 +1,6 @@
 local M = {}
 
-local lualine_theme = require("pitchblack.lualine.theme").theme
+local lualine_theme = require("pitchblack.lualine.theme").lualine_theme
 
 M.defaults = {
 	background = "dark",
