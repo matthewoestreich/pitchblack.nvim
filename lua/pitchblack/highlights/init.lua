@@ -57,6 +57,7 @@ function M.apply_treesitter()
 		["@function.rust"] = { fg = "#DCDCAA" },
 		["@function.method"] = { fg = "#DCDCAA" },
 		["@function.call"] = { fg = "#DCDCAA" },
+		["@function.builtin"] = { fg = "#569cd6" },
 		["@variable"] = { fg = "#9CDCFE" },
 		["@variable.builtin"] = { fg = "#569cd6" },
 		["@variable.member"] = { fg = "#9cdcfe" },
