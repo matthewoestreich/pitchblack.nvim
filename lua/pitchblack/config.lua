@@ -1,10 +1,9 @@
 local M = {}
 
-local lualine_theme = require("pitchblack.lualine.theme").lualine_theme
-
 M.defaults = {
 	background = "dark",
 
+	--[[
 	lualine = {
 		enabled = true,
 		-- lualine native options can be passed directly through
@@ -16,6 +15,7 @@ M.defaults = {
 		},
 		separators = true,
 	},
+  --]]
 
 	rainbow_delimiters = {
 		enabled = true,
