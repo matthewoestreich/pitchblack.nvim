@@ -7,7 +7,6 @@ function M.setup(opts)
 	--vim.notify("pitchblack:config:setup()")
 	vim.g.colors_name = "pitchblack"
 	config.setup(opts)
-	M.apply()
 	hl.apply_core()
 	hl.apply_treesitter()
 	require("pitchblack.integrations.rainbow").apply()
