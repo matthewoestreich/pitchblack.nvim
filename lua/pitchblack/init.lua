@@ -10,14 +10,13 @@ function M.setup(opts)
 	hl.apply_core()
 	hl.apply_treesitter()
 	require("pitchblack.integrations.rainbow").apply()
-	vim.api.nvim_exec_autocmds("ColorScheme", { modeline = false })
 end
 
--- vim.api.nvim_create_autocmd("ColorScheme", {
--- 	pattern = "pitchblack",
--- 	callback = function()
--- 		vim.schedule(M.setup)
--- 	end,
--- })
+vim.api.nvim_create_autocmd("ColorScheme", {
+	pattern = "pitchblack",
+	callback = function()
+		vim.schedule(M.setup)
+	end,
+})
 
 return M
