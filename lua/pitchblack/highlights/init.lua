@@ -8,6 +8,7 @@ function M.apply_core()
 
 	local core_hl = {
 		["Constant"] = { fg = "#ff966c" },
+		["IncSearch"] = { fg = "#1b1d2b", bg = "#ff966c" },
 		["Special"] = { fg = "#65bcff" },
 		["Normal"] = { fg = "#d4d4d4", bg = "#000000" },
 		["NormalNC"] = { fg = "#d4d4d4", bg = "#000000" },
