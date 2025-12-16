@@ -40,6 +40,11 @@ function M.apply_core()
 		["StatusLineNC"] = { fg = "#c8d3f5", bg = "#1e2030" },
 
 		-- BufferLine
+		["BufferLineMiniIconsAzure"] = { fg = "#0db9d7", bg = "#000000" },
+		["BufferLineMiniIconsAzureSelected"] = { fg = "#0db9d7", bg = "#000000" },
+		["BufferLineMiniIconsGreen"] = { fg = "#c3e88d", bg = "#000000" },
+		["BufferLineMiniIconsGreenSelected"] = { fg = "#c3e88d", bg = "#000000" },
+		["BufferLineMiniIconsGreenInactive"] = { fg = "#c3e88d", bg = "#000000" },
 		["BufferLineFill"] = { fg = "#636da6", bg = "#000000" },
 		["BufferLineBackground"] = { fg = "#636da6", bg = "#000000" },
 		["BufferLineBufferSelected"] = { fg = "#d4d4d4", bg = "#000000", bold = true, italic = true },
