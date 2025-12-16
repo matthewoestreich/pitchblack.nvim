@@ -69,6 +69,17 @@ function M.apply_core()
 		["SnacksNotifierTitleError"] = { fg = "#c53b53" },
 		["SnacksNotifierIconError"] = { fg = "#c53b53" },
 		["SnacksInputTitle"] = { fg = "#ffc777" },
+
+		-- MiniIcons
+		["MiniIconsBlue"] = { fg = "#82aaff" },
+		["MiniIconsAzure"] = { fg = "#0db9d7" },
+		["MiniIconsCyan"] = { fg = "#4fd6be" },
+		["MiniIconsGreen"] = { fg = "#c3e88d" },
+		["MiniIconsGrey"] = { fg = "#c8d3f5" },
+		["MiniIconsOrange"] = { fg = "#ff966c" },
+		["MiniIconsPurple"] = { fg = "#fca7ea" },
+		["MiniIconsRed"] = { fg = "#ff757f" },
+		["MiniIconsYellow"] = { fg = "#ffc777" },
 	}
 
 	for group, opts in pairs(core_hl) do
