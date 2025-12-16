@@ -84,6 +84,7 @@ function M.apply_core()
 		["BufferLinePickVisible"] = { fg = "#c53b53", bg = "#000000", bold = true, italic = true },
 		["BufferLinePickSelected"] = { fg = "#c53b53", bg = "#000000", bold = true, italic = true },
 		["BufferLineIndicatorVisible"] = { fg = "#000000", bg = "#000000" },
+		["BufferLineIndicatorSelected"] = { fg = "#d4d4d4", bg = "#000000" },
 		["BufferLineTabSeparatorSelected"] = { fg = "#000000", bg = "#000000" },
 		["BufferLineTabSeparator"] = { fg = "#000000", bg = "#000000" },
 		["BufferLineSeparatorVisible"] = { fg = "#000000", bg = "#000000" },
@@ -124,6 +125,8 @@ function M.apply_core()
 		["BufferLineInfoDiagnosticVisible"] = { fg = "#4a517c", bg = "#000000" },
 		["BufferLineInfoDiagnostic"] = { fg = "#4a517c", bg = "#000000", sp = "#098aa1" },
 		["BufferLineInfoSelected"] = { fg = "#0db9d7", bg = "#000000", bold = true, italic = true, sp = "#0db9d7" },
+		["BufferLineIndicator"] = { fg = "#636da6", bg = "#1e2030" },
+		["BufferLineTabFill"] = { bg = "#1e2030" },
 
 		-- Explorer related
 		["Directory"] = { fg = "#82aaff" },
