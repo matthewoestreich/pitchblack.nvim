@@ -38,6 +38,7 @@ function M.apply_core()
 		["NonText"] = { fg = "#545c7e" },
 		["MatchParen"] = { fg = "#ff966c", bold = true },
 		["EndOfBuffer"] = { fg = "#222436" },
+		["ErrorMsg"] = { fg = "#c53b53" },
 
 		["StatusLine"] = { fg = "#c8d3f5", bg = "#1e2030" },
 		["StatusLineNC"] = { fg = "#c8d3f5", bg = "#1e2030" },
